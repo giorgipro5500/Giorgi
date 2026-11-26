@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashionisu | Video Content Creatives</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+
+  <header class="top-bar">
+    <nav class="nav-menu disabled-links">
+      <a href="#" onclick="return false;" class="active">Home</a>
+      <a href="#" onclick="return false;">About</a>
+      <a href="#" onclick="return false;">Clients</a>
+      <a href="#" onclick="return false;">Contact</a>
+    </nav>
+
+    <div class="vertical-brand">
+      <span class="brand-main">Fashio</span>
+      <span class="brand-sub">nisu.</span>
+    </div>
+  </header>
+
+  
+  <section class="hero-section">
+    <div class="hero-titles">
+      <h1 class="title-left">Video Content</h1>
+      <h1 class="title-right">Creatives</h1>
+    </div>
+
+    <div class="hero-media-stack">
+      
+      <div class="hero-back-box">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80" alt="Fashion Background" />
+      </div>
+
+  
+      <div class="hero-front-video">
+        <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80">
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="projects-section">
+    <h2 class="section-heading">Our Projects.</h2>
+
+    <div class="projects-grid">
+  
+      <div class="project-card" onclick="playModalVideo('https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4', 'Colors & Glam')">
+        <div class="media-box">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=80" alt="Colors & Glam" />
+          <div class="play-icon"><i class="fas fa-play"></i></div>
+        </div>
+        <p class="project-title">Colors &amp; Glam</p>
+      </div>
+
+    
+      <div class="project-card" onclick="playModalVideo('https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4', 'In the Wild Collection')">
+        <div class="media-box">
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1000&q=80" alt="In the Wild Collection" />
+          <div class="play-icon"><i class="fas fa-play"></i></div>
+        </div>
+        <p class="project-title">In the Wild Collection</p>
+      </div>
+
+      <div class="project-card" onclick="playModalVideo('https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4', 'Bell & Ronny Autumn Collection')">
+        <div class="media-box">
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80" alt="Bell & Ronny Autumn Collection" />
+          <div class="play-icon"><i class="fas fa-play"></i></div>
+        </div>
+        <p class="project-title">Bell &amp; Ronny Autumn Collection</p>
+      </div>
+
+   
+      <div class="project-card" onclick="playModalVideo('https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoy.mp4', 'Chill x Zoe Special Collection')">
+        <div class="media-box">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=80" alt="Chill x Zoe Special Collection" />
+          <div class="play-icon"><i class="fas fa-play"></i></div>
+        </div>
+        <p class="project-title">Chill x Zoe Special Collection</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="about-peach-section">
+    <div class="about-wrapper">
+      <div class="about-text-area">
+        <h2>
+          We are Fashionisu.<br />
+          A creative agency<br />
+          that puts fashion<br />
+          in the front.
+        </h2>
+        <a href="#" onclick="return false;" class="read-more-link disabled-links">Read More</a>
+      </div>
+
+      <div class="about-photo-box">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" alt="Fashionisu Agency" />
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer class="site-footer">
+    <div class="footer-container">
+      <h2>Follow Fashionisu.<br />Subscribe Today</h2>
+
+      <form class="subscribe-form" onsubmit="event.preventDefault();">
+        <label for="emailInput">Email Address: *</label>
+        <div class="input-row">
+          <input type="email" id="emailInput" required />
+          <button type="submit">Subscribe</button>
+        </div>
+
+        <label class="checkbox-row">
+          <input type="checkbox" required />
+          <span>Yes, subscribe me to your newsletter. *</span>
+        </label>
+      </form>
+
+      <p class="copyright-text">
+        &copy; 2035 By Fashionisu. Powered and secured by <span class="underline-text">Wix</span>
+      </p>
+    </div>
+  </footer>
+
+
+  <aside class="fixed-right-socials" aria-label="Social Media">
+    <a href="#" onclick="return false;" tabindex="-1"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" onclick="return false;" tabindex="-1"><i class="fab fa-instagram"></i></a>
+    <a href="#" onclick="return false;" tabindex="-1"><i class="fab fa-twitter"></i></a>
+    <a href="#" onclick="return false;" tabindex="-1"><i class="fab fa-vimeo-v"></i></a>
+    <a href="#" onclick="return false;" tabindex="-1"><i class="fab fa-youtube"></i></a>
+  </aside>
+
+
+  <div id="videoPopup" class="video-popup" onclick="closePopup(event)">
+    <div class="popup-inner">
+      <div class="popup-top">
+        <span id="popupCaption">Video</span>
+        <button type="button" onclick="hidePopup()">&times;</button>
+      </div>
+      <video id="popupPlayer" controls></video>
+    </div>
+  </div>
+
+  <script>
+    const popup = document.getElementById('videoPopup');
+    const player = document.getElementById('popupPlayer');
+    const caption = document.getElementById('popupCaption');
+
+    function playModalVideo(url, title) {
+      caption.textContent = title;
+      player.src = url;
+      popup.style.display = 'flex';
+      player.play();
+    }
+
+    function hidePopup() {
+      popup.style.display = 'none';
+      player.pause();
+      player.src = '';
+    }
+
+    function closePopup(e) {
+      if (e.target === popup) {
+        hidePopup();
+      }
+    }
+  </script>
+
+</body>
+</html>
